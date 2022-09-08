@@ -3,11 +3,32 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "next": "latest",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.3",
+    "@mui/styles": "^5.10.3",
+    "@mui/system": "^5.10.3",
+    "@storybook/testing-library": "^0.0.13",
+    "emotion-theming": "^11.0.0",
+    "material-ui-popup-state": "^4.0.2",
+    "next": "^12.2.5",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-material-ui-carousel": "^3.4.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^6.5.10",
+    "@storybook/addon-controls": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-viewport": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "chromatic": "^6.7.4"
   }
 }
