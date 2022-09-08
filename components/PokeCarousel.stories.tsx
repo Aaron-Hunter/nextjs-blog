@@ -14,7 +14,7 @@ export const Default = Template.bind({});
 Default.args = {
     cards: [
         {
-            name: "Spearow",
+            name: "Fearow",
             imageUrl: "/artwork22.png",
             flavour: "With its huge and\nmagnificent wings,\nit can keep aloft \u000cwithout ever\nhaving to land\nfor rest.",
         },
