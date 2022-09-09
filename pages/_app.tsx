@@ -1,5 +1,5 @@
 import NextHead from 'next/head';
-import { AppProps } from 'next/App';
+import { AppProps } from 'next/app';
 import { Header } from '../nextjs-components/Header';
 import {
     Box,
