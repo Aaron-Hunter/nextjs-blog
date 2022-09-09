@@ -7,7 +7,6 @@ import {
     shadows,
     borders,
 } from '@mui/system';
-import './HobbyCard.css';
 
 type HobbyCardProps = {
     title: string;
