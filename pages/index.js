@@ -17,7 +17,6 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Header />
             <Box sx={{ display: "flex", justifyContent: "center" }}>
                 <Stack direction="column" sx={{ display: "flex", justifyContent: "center" }}>
                     <Box margin="auto">

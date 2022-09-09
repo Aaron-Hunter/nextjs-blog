@@ -16,7 +16,6 @@ export default function Hobbies() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Header />
             <Stack direction="column" sx={{ display: "flex", justifyContent: "center" }}>
                 <Box marginLeft="auto" marginRight="auto">
                     <h1 text-align="center" style={{ marginBottom: "0px" }}>My Hobbies</h1>

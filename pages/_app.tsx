@@ -1,10 +1,10 @@
 import NextHead from 'next/head';
 import { AppProps } from 'next/App';
-import { Header } from '../components/Header';
+import { Header } from '../nextjs-components/Header';
 import {
     Box,
     Stack
-} from '@mui/materials';
+} from '@mui/material';
 import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
@@ -25,3 +25,5 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         </Box>
     )
 }
+
+export default MyApp;
